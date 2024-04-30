@@ -1,0 +1,10 @@
+Cores = { 
+#181818 (Escuro Principal)
+#3a0361 (roxo de destaque)
+#ffffff (branco) 
+#333333 (Cinza de destaque)
+}
+Fonts = {
+    font-family: "Lato", sans-serif;  <--Textos secundarios-->
+    font-family: "Nunito", sans-serif; <--Textos principais-->
+}

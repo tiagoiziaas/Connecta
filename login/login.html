@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="/Connecta/Imagens/Logo (2).png">
+  <link rel="stylesheet" href="../css/EstiloDoLogin.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Connecta/css/EstiloDoLogin.css">
+  <script src="https://kit.fontawesome.com/78615f2b96.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="box-container">
+    <div class="container-center">
+        <section class="text">
+            <h2>Login</h2>
+        </section><!---Texto do centro --->
+        <form action="login.php" method="post">
+        <section class="Container-Login">
+            <input type="email" name="email" id="email" placeholder="E-Mail">
+            <i class="fa-solid fa-user fa-1x"></i>
+           
+            <input type="password" name="pass" id="pass" placeholder="password">
+            <i class="fa-solid fa-lock fa-1x"></i>
+            
+        </section><!--- Inputs de login--->
+
+        <section class="container-Ment">
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Lembrar-me</label>
+            <a href="">Esqueci minha senha</a>
+        </section><!---Campos de Lembra senha e  esqueci minha senha !--->
+
+
+        <section class="btn">
+            <input id="btn" type="submit" value="Enviar">
+        </section><!--Botao --->
+        </form>
+        <section class="Container-Mult">
+            <h3> Or Sign in with</h3>
+            <div class="container-Social">
+                <a href=""><i class="fa-brands fa-facebook fa-2x" ></i></a>
+                <a href=""><i class="fa-brands fa-google fa-2x"></i></a> 
+            </div><!---icones de redes sociais--->
+            <div class="cadastroInt">
+                <span>Faça seu cadastro aqui !</span>
+                <a href="cadastro.html">Cadastre-se</a>
+            </div><!---Chamada para o cadastro--->
+        </section><!---Fazer login de outrs formas --->
+       
+     </div><!--Container Geral-->
+     <section class="box-left">
+            <img src="../Imagens/undraw_mobile_login_re_9ntv (1).svg" alt="logo"  >
+     </section><!--Container left--->
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

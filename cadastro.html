@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="/Connecta/Imagens/Logo (2).png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Connecta/css/style.css">
+  <script src="https://kit.fontawesome.com/78615f2b96.js" crossorigin="anonymous"></script>
+
+  <title>Connecta</title>
+</head>
+<body>
+  <div class="conteinerCenter">
+  <section class="conteinerWell">
+    <img src="./Imagens/undraw_mobile_payments_re_7udl.svg" alt="" srcset="">
+  </section>
+  <section class="form">
+
+      <form id="form" accept="index.php" method="post">
+
+        <div class="formText">
+            <h2> Crie sua conta aqui!</h2>
+            <h4>Sign Up</h4>
+        </div><!-- Chamada para o cadastro---->
+        <div class="form-input">
+
+          <div class="form-name form-name-defaut">
+            <label for="name">Nome *</label>
+            <input type="text" name="username" class="duck" id="username" placeholder="Nome" oninput="Nameuser()">
+            <span id="Np">Preencha esse campo!</span>
+          </div><!---Names -->
+
+          <div class="form-name-laft form-name-defaut ">
+            <label for="laft">Sobre Nome *</label>
+            <input type="text" name="laft" id="laft" class="duck" placeholder="Sobre nome"  oninput="lastName()">
+            <span id="Np">Preencha esse campo!</span>
+          </div><!---Sobre Nome -->
+
+          <div class="form-email defaut">
+            <label for="email">E-mail *</label>
+            <input type="email" name="email" id="email" class="duck" placeholder="Digite seu E-mail" oninput="emailConfirm()">
+            <span id="Np">Preencha esse campo!</span>
+          </div><!---Email  -->
+
+          <div class="form-pass defaut">
+            <label for="pass">Password *</label>
+            <input type="password" name="pass" id="pass" class="duck" placeholder="Digite sua senha" oninput="Setpassword()"> 
+            <span id="Np">Preencha esse campo!</span>
+          </div><!---Password-->
+
+          <div class="form-pass confirm defaut">
+            <label for="confirm"> Confirme sua senha *</label> 
+            <input type="password" name="confirm" id="confirm" class="duck "  placeholder="Confirme sua senha" oninput="Confirmpassword()"> <i id="icon" class="fa-solid fa-eye-slash  fa-xl"></i>
+            <span id="Np">Campo não preenchido ou está incorreto</span>
+          </div><!---Password-->
+
+          <div class="form-box defaut">
+            <input type="checkbox" name="Polis" id="Polis" value="true"> 
+           
+            <label id="Polis" for="Polis">Você aceita os <a href="http://www.google.com" target="_blank"> Termos </a> de politica *</label>
+            <span id="Np" style="font-size: 0.9em;"> Aceite o termo !</span>
+          </div><!---Politicas--->
+         
+          <div class="form-btn">
+            <input type="hidden" name="acao" value="submit">
+            <input type="submit" id="btn" value="Sign"  name="acao">            
+          </div>
+
+         
+        </div><!-- Inputs -->
+      </form>
+  </section><!--Formulario de cadastro--->
+</div>
+<script src="main.js">
+  
+
+</script>
+</body>
+
+</html>
