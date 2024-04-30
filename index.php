@@ -1,5 +1,5 @@
 <?php 
-include('cadastro.html');
+include('index.html');
 
 $pdo = new PDO('mysql:host=localhost;dbname=cadastro','root','');
 
