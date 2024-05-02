@@ -13,7 +13,7 @@ $ConfirmPass = @$_POST['confirm'];
 $sql = $pdo->prepare("INSERT INTO `clientes` VAlUES (null,?,?,?,?,?)");
 
 $sql->execute(array($name,$Sobrename,$email,$password,$ConfirmPass));
-    header('Location:https://tiagoiziaas.github.io/Conneta-login/');
+    header('Location:..\login\index.html');
 }
 
 ?>

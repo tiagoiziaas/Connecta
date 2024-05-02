@@ -32,7 +32,6 @@ form.addEventListener('submit', (event) => {
     if (Validatetrue() && polis.checked) {
         // Se todos os campos estiverem validados, enviar o formulário
         form.submit();
-        console.log('Formulário enviado com sucesso!');
         
         
     } else {
